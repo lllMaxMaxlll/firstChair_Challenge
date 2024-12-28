@@ -1,0 +1,15 @@
+{
+	"name": "firstchair-challenge",
+	"version": "1.0.0",
+	"description": "Challenge for FirstChair Services",
+	"main": "index.js",
+	"scripts": {
+		"build": "tsc",
+		"start": "node dist/index.js"
+	},
+	"author": "Maximiliano Herr",
+	"license": "ISC",
+	"devDependencies": {
+		"typescript": "5.7.2"
+	}
+}
