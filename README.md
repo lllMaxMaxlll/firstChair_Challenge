@@ -2,13 +2,6 @@
 
 This project is a challenge for FirstChair Services, designed to demonstrate object-oriented programming (OOP) in TypeScript. It involves creating a zoo system with various animal classes, such as Animal, Giraffe, and GiantTortoise, as well as the Zoo class to manage the collection of animals.
 
-## Features
-
-• **Zoo Management**: Manage the animals in the zoo with the ability to add, remove, and list animals.
-• **Animal Descriptions**: Animals can provide detailed descriptions based on their species.
-• **Admission Prices**: Get the admission price for each day of the week based on a set pricing model.
-• **Age Categories**: Animal classes like GiantTortoise categorize the age of the animal as young, middle-aged, or old.
-
 ## Setup
 
 ### Prerequisites
@@ -54,7 +47,9 @@ This will execute the main entry point dist/index.js.
 ## Project Structure
 
 • src/: Contains the TypeScript source files for all classes and logic (e.g., Animal.ts, Zoo.ts, etc.).
+
 • dist/: The compiled JavaScript files (output directory).
+
 • tsconfig.json: TypeScript configuration file.
 
 ## Dependencies
