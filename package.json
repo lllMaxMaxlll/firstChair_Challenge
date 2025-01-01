@@ -10,6 +10,11 @@
 	"author": "Maximiliano Herr",
 	"license": "ISC",
 	"devDependencies": {
+		"@types/node": "^22.10.3",
 		"typescript": "5.7.2"
+	},
+	"dependencies": {
+		"@types/readline-sync": "^1.4.8",
+		"readline-sync": "^1.4.10"
 	}
 }

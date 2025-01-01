@@ -11,10 +11,12 @@ import Animal from "./Animal";
 
 export class Crocodile extends Animal {
 	teethCount: number;
+	food: string;
 
-	constructor(name: string, gender: string, teethCount: number) {
+	constructor(name: string, gender: string, teethCount: number, food: string) {
 		super("Crocodile", name, 4, gender);
 		this.teethCount = teethCount;
+		this.food = food;
 	}
 
 	/**
@@ -25,7 +27,7 @@ export class Crocodile extends Animal {
 	 */
 
 	favoriteFood(): void {
-		console.log(`${this.name} loves eating fish.`);
+		console.log(`${this.name} loves eating ${this.food}.`);
 	}
 }
 
